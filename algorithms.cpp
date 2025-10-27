@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 
+
+/**
+ * * A custom implementation of the for_each algorithm of the STL
+ */
 template <typename Iterator, typename Function>
 Function my_for_each(Iterator first, Iterator last, Function func) {
     while (first != last) {
@@ -9,6 +13,8 @@ Function my_for_each(Iterator first, Iterator last, Function func) {
     }
     return func;
 }
+
+
 
 // example usage
 int main() {

@@ -4,4 +4,4 @@ project(algorithms)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(my_app foreach.cpp)
+add_executable(my_app algorithms.cpp)
